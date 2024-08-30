@@ -1,3 +1,4 @@
+1
 # Predefined values (can be changed to user input in a real scenario)
 num1 = 12.3456
 num2 = 78.9012
@@ -7,7 +8,7 @@ result = num1 / num2
 print(f"The result of division is: {result:.6e}")
 
 
-
+2
 # Predefined value (can be changed to user input)
 letter = 'A'
 
@@ -16,7 +17,7 @@ unicode_value = ord(letter)
 print(f"The Unicode encoding of {letter} is: {unicode_value}")
 
 
-
+3
 import math
 
 # Predefined radius (can be changed to user input)
@@ -27,7 +28,7 @@ area = math.pi * radius ** 2
 print(f"The area of the circle with radius {radius} is: {area:.2f}")
 
 
-
+4
 import sys
 
 # Predefined values (can be changed to command-line arguments)
@@ -53,7 +54,7 @@ for month in range(1, number_of_payments + 1):
     print(f"Month {month}: Payment = ${monthly_payment:.2f}, Interest Paid = ${interest_paid:.2f}, Principal Paid = ${principal_paid:.2f}, Remaining Principal = ${remaining_principal:.2f}")
 
 
-
+5
 import math
 
 # Predefined radius
