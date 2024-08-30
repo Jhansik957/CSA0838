@@ -24,7 +24,6 @@ print(max_area(height))  # Output: 49
 
 
 from collections import defaultdict
-
 def group_anagrams(strs):
     anagrams = defaultdict(list)
     
